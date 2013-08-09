@@ -1,0 +1,227 @@
+{
+  "bounds": [
+    -180,
+    -85.0511,
+    180,
+    85.0511
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 1,
+  "maxzoom": 5,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -9.870444297790527,
+        31.028972625732422,
+        150.83419799804688,
+        78.16796875
+      ],
+      "id": "rail-eur",
+      "class": "rail",
+      "Datasource": {
+        "file": "layers/src/railroad/trans-railroad-l-eur.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "rail-eur",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -165.2446746826172,
+        11.838516235351562,
+        -52.70523452758789,
+        65.22376251220703
+      ],
+      "id": "rail-noa",
+      "class": "rail",
+      "Datasource": {
+        "file": "layers/src/railroad/trans-railroad-l-noa.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "rail-noa",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        25,
+        -46.59686279296875,
+        179.60989379882812,
+        50
+      ],
+      "id": "rail-sas",
+      "class": "rail",
+      "Datasource": {
+        "file": "layers/src/railroad/trans-railroad-l-sas.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "rail-sas",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -84.82665252685547,
+        -53.138427734375,
+        57.78192901611328,
+        22.719545364379883
+      ],
+      "id": "rail-soa",
+      "class": "rail",
+      "Datasource": {
+        "file": "layers/src/railroad/trans-railroad-l-soa.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "rail-soa",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -28.81997299194336,
+        30,
+        179.44512939453125,
+        74.0343017578125
+      ],
+      "id": "road-eur",
+      "class": "road",
+      "Datasource": {
+        "file": "layers/src/roads/trans-road-l-eur.shp"
+
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "road-eur",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -179.99942016601562,
+        -23.878814697265625,
+        -13.8587007522583,
+        74.74059295654297
+      ],
+      "id": "road-noa",
+      "class": "road",
+      "Datasource": {
+        "file": "layers/src/roads/trans-road-l-noa.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "road-noa",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        25,
+        -54.76599884033203,
+        179.99942016601562,
+        50
+      ],
+      "id": "road-sas",
+      "class": "road",
+      "Datasource": {
+        "file": "layers/src/roads/trans-road-l-sas.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "road-sas",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -176.66807556152344,
+        -54.888023376464844,
+        144,
+        30
+      ],
+      "id": "road-soa",
+      "class": "road",
+      "Datasource": {
+        "file": "layers/src/roads/trans-road-l-soa.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "road-soa",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -153.02708333333442,
+        -45.87958333333509,
+        176.81541666666317,
+        70.38708333332693
+      ],
+      "id": "dams",
+      "class": "dam",
+      "Datasource": {
+        "file": "layers/src/dams/GRanD_dams_v1_1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "dams"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -74.98552703857422,
+        -24.711017608642578,
+        -6.254886150360107,
+        16.61620330810547
+      ],
+      "id": "popbuiltupareap",
+      "class": "",
+      "Datasource": {
+        "file": "layers/src/pop-built-up/pop-built-up-area-p.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "popbuiltupareap"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "Anthropogenic features",
+  "description": "Various human developments on the planet. Developed for the Future Earth exhibit at the Science Museum of Minnesota.",
+  "attribution": ""
+}
